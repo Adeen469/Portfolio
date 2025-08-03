@@ -1,0 +1,489 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  header {
+    background-color: #002244;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00d9ff;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+
+  #home h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #002244;
+  }
+  
+  #home p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  #home a {
+    padding: 12px 25px;
+    background-color: #002244;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  #home a:hover {
+    background-color: #005799;
+  }
+  #about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  #about h1 {
+    font-size: 2.5rem;
+    color: #002244;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  #skills {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  #skills h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #002244;
+    margin-bottom: 40px;
+  }
+  
+  .skill-category {
+    margin-bottom: 30px;
+  }
+  
+  .skill-category h2 {
+    color: #005799;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .skill-category ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .skill-category ul li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  #projects {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  #projects h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #002244;
+    margin-bottom: 40px;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border-left: 6px solid #005799;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+  }
+  
+  .project-card h2 {
+    color: #002244;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    color: #333;
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+  .resume-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .resume-buttons .btn {
+    padding: 12px 25px;
+    background-color: #002244;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+  
+  .resume-buttons .btn:hover {
+    background-color: #005799;
+  }
+  
+  .resume-buttons .btn.outline {
+    background-color: transparent;
+    color: #002244;
+    border: 2px solid #002244;
+  }
+  
+  .resume-buttons .btn.outline:hover {
+    background-color: #002244;
+    color: #fff;
+  }
+  #contact {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  #contact h1 {
+    font-size: 2.5rem;
+    color: #002244;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  
+  .contact-list li {
+    margin-bottom: 15px;
+    color: #005799;
+  }
+  
+  .contact-list a {
+    color: #002244;
+    text-decoration: none;
+  }
+  
+  .contact-list a:hover {
+    text-decoration: underline;
+  }
+  #skills {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #f9f9f9, #e6f0ff);
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2.8rem;
+  color: #222;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.skill-category {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.skill-category h3 {
+  font-size: 1.6rem;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #93c5fd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skill-bar {
+  margin-bottom: 15px;
+}
+
+.skill-bar span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.skill-progress {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.skill-progress div {
+  height: 100%;
+  text-align: right;
+  padding-right: 10px;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 20px;
+  background-color: #3b82f6;
+  width: 0;
+  animation: fillProgress 2s ease forwards;
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--progress);
+  }
+}
+#projects {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.project {
+  background-color: #f1f1f1;
+  border-left: 6px solid #001f3f;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project h3 {
+  font-size: 1.4rem;
+  color: #001f3f;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #001f3f;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.project a:hover {
+  background-color: #003366;
+}
+.project a:hover {
+  transform: scale(1.02);
+}
+#certifications {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#certifications h2 {
+  font-size: 2.5rem;
+  color: #002244;
+  margin-bottom: 30px;
+}
+
+.certificate {
+  background-color: #fff;
+  border-left: 6px solid #001f3f;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.certificate:hover {
+  transform: scale(1.02);
+}
+
+.certificate h3 {
+  font-size: 1.4rem;
+  color: #001f3f;
+}
+
+.certificate p {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.certificate a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #001f3f;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.certificate a:hover {
+  background-color: #003366;
+}
+.certificate a:hover {
+  transform: scale(1.02);
+}
+
+#education {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#education h2 {
+  font-size: 2.5rem;
+  color: #002244;
+  margin-bottom: 30px;
+}
+
+.education-item {
+  background-color: #f9f9f9;
+  border-left: 6px solid #001f3f;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 1.4rem;
+  color: #001f3f;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #555;
+  margin: 6px 0;
+}
+footer {
+  background-color: #001f3f;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.95rem;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #004080;
+}
+#socials {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+#socials h2 {
+  font-size: 2rem;
+  color: #002244;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #001f3f;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn Blue */
+}
